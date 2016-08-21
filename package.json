@@ -1,0 +1,47 @@
+{
+  "name": "acolor",
+  "version": "1.0.0",
+  "description": "Color utility",
+  "main": "lib",
+  "browser": "shim/browser",
+  "scripts": {
+    "test": "./ci/test.js",
+    "prepublish": "./ci/build.js && ./ci/browser.js"
+  },
+  "repository": "a-labo/acolor",
+  "keywords": [
+    "color"
+  ],
+  "author": {
+    "name": "Taka Okunishi",
+    "email": "okunishitaka.com@gmail.com",
+    "url": "http://okunishitaka.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a-labo/acolor/issues"
+  },
+  "homepage": "https://github.com/a-labo/acolor#readme",
+  "dependencies": {
+    "color": "^0.11.3"
+  },
+  "devDependencies": {
+    "ababel": "^1.1.2",
+    "ababel-es2015": "^1.0.6",
+    "amocha": "^1.0.14",
+    "ape-doc": "^2.0.4",
+    "ape-formatting": "^1.0.2",
+    "ape-releasing": "^4.0.4",
+    "ape-reporting": "^3.0.2",
+    "ape-tasking": "^4.0.8",
+    "ape-tmpl": "^5.0.15",
+    "ape-updating": "^4.0.5",
+    "co": "^4.6.0",
+    "coz": "^6.0.17",
+    "injectmock": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  }
+}
