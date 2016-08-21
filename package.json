@@ -1,6 +1,6 @@
 {
   "name": "acolor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Color utility",
   "main": "lib",
   "browser": "shim/browser",
