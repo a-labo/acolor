@@ -1,12 +1,12 @@
 {
   "name": "acolor",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Color utility",
   "main": "lib",
   "browser": "shim/browser",
   "scripts": {
     "test": "./ci/test.js",
-    "prepublish": "./ci/build.js && ./ci/browser.js"
+    "prepare": "./ci/build.js && ./ci/shim.js"
   },
   "repository": "a-labo/acolor",
   "keywords": [
@@ -28,6 +28,7 @@
   "devDependencies": {
     "ababel": "^1.1.2",
     "ababel-es2015": "^1.0.6",
+    "aglob": "^2.0.1",
     "amocha": "^1.0.14",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
@@ -42,6 +43,6 @@
   },
   "engines": {
     "node": ">=6",
-    "npm": ">=3"
+    "npm": ">=4"
   }
 }
