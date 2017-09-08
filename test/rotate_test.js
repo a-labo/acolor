@@ -6,21 +6,21 @@
 
 const rotate = require('../lib/rotate.js')
 const assert = require('assert')
-const co = require('co')
+
 
 describe('rotate', () => {
-  before(() => co(function * () {
+  before(async () => {
 
-  }))
+  })
 
-  after(() => co(function * () {
+  after(async () => {
 
-  }))
+  })
 
-  it('Rotate', () => co(function * () {
-    assert.equal(rotate('#AA1', 30), 'rgba(94, 172, 17, 1)')
-    assert.equal(rotate('#AA1', 120), 'rgba(17, 172, 172, 1)')
-  }))
+  it('Rotate', async () => {
+    assert.equal(rotate('#AA1', 30), 'hsl(90, 81.8%, 36.7%)')
+    assert.equal(rotate('#AA1', 120), 'hsl(180, 81.8%, 36.7%)')
+  })
 })
 
 /* global describe, before, after, it */

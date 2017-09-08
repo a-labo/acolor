@@ -6,21 +6,21 @@
 
 const alpha = require('../lib/alpha.js')
 const assert = require('assert')
-const co = require('co')
+
 
 describe('alpha', () => {
-  before(() => co(function * () {
+  before(async () => {
 
-  }))
+  })
 
-  after(() => co(function * () {
+  after(async () => {
 
-  }))
+  })
 
-  it('Alpha', () => co(function * () {
+  it('Alpha', async () => {
     let color = alpha('#E11', 0.2)
     assert.equal(color, 'rgba(238, 17, 17, 0.2)')
-  }))
+  })
 })
 
 /* global describe, before, after, it */

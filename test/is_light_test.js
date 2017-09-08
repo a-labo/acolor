@@ -6,21 +6,21 @@
 
 const isLight = require('../lib/is_light.js')
 const assert = require('assert')
-const co = require('co')
+
 
 describe('is-light', () => {
-  before(() => co(function * () {
+  before(async () => {
 
-  }))
+  })
 
-  after(() => co(function * () {
+  after(async () => {
 
-  }))
+  })
 
-  it('Is light', () => co(function * () {
+  it('Is light', async () => {
     assert.ok(isLight('#FAA'))
     assert.ok(isLight('#AFF'))
-  }))
+  })
 })
 
 /* global describe, before, after, it */

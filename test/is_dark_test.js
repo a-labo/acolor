@@ -5,22 +5,22 @@
 'use strict'
 
 const isDark = require('../lib/is_dark.js')
-const assert = require('assert')
-const co = require('co')
+const {ok} = require('assert')
+
 
 describe('is-dark', () => {
-  before(() => co(function * () {
+  before(async () => {
 
-  }))
+  })
 
-  after(() => co(function * () {
+  after(async () => {
 
-  }))
+  })
 
-  it('Is dark', () => co(function * () {
-    assert.ok(isDark('#311'))
-    assert.ok(isDark('#133'))
-  }))
+  it('Is dark', async () => {
+    ok(isDark('#311'))
+    ok(isDark('#133'))
+  })
 })
 
 /* global describe, before, after, it */
