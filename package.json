@@ -1,6 +1,6 @@
 {
   "name": "acolor",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Color utility",
   "main": "lib",
   "browser": "shim/browser",
@@ -28,14 +28,14 @@
   "devDependencies": {
     "ababel": "^2.0.2",
     "ababel-es2015": "^2.0.2",
-    "aglob": "^2.0.1",
-    "amocha": "^2.0.0",
+    "aglob": "^3.0.0",
+    "amocha": "^4.0.0",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
     "ape-reporting": "^3.0.2",
     "ape-tasking": "^4.0.8",
-    "ape-tmpl": "^6.0.0",
+    "ape-tmpl": "^6.0.2",
     "ape-updating": "^4.0.5",
     "coz": "^6.0.17",
     "injectmock": "^2.0.0"
