@@ -1,6 +1,6 @@
 {
   "name": "acolor",
-  "version": "2.0.2",
+  "version": "3.0.1",
   "description": "Color utility",
   "main": "lib",
   "browser": "shim/browser",
@@ -23,25 +23,24 @@
   },
   "homepage": "https://github.com/a-labo/acolor#readme",
   "dependencies": {
-    "color": "^2.0.0"
+    "color": "^3.1.0"
   },
   "devDependencies": {
-    "ababel": "^2.0.2",
-    "ababel-es2015": "^2.0.2",
-    "aglob": "^3.0.0",
-    "amocha": "^4.0.0",
+    "ababel": "^5.0.8",
+    "aglob": "^3.0.1",
+    "amocha": "^5.0.0",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
-    "ape-releasing": "^4.0.4",
+    "ape-releasing": "^5.0.0",
     "ape-reporting": "^3.0.2",
     "ape-tasking": "^4.0.8",
-    "ape-tmpl": "^6.0.2",
-    "ape-updating": "^4.0.5",
-    "coz": "^6.0.17",
+    "ape-tmpl": "^6.0.11",
+    "ape-updating": "^5.0.1",
+    "coz": "^7.0.2",
     "injectmock": "^2.0.0"
   },
   "engines": {
-    "node": ">=6",
-    "npm": ">=7.4"
+    "node": ">=8",
+    "npm": ">=5"
   }
 }
