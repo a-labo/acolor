@@ -99,7 +99,7 @@ Available functions
 | `isLight(color) -> boolean` | Detect light or not |
 | `mix(color1, color2) -> string` | mix colors |
 | `parse(-) -> Object` | Parse a color |
-| `rotate(color, degree) -> string` | rotate color |
+| `rotate(color, degree, options) -> string` | rotate color |
 
 
 <!-- Section from "doc/guides/03.Functions.md.hbs" End -->
