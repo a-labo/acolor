@@ -26,9 +26,9 @@
     "color": "^3.1.2"
   },
   "devDependencies": {
-    "ababel": "^6.1.2",
+    "ababel": "^6.1.4",
     "aglob": "^3.0.2",
-    "amocha": "^7.0.2",
+    "amocha": "^7.1.0",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^2.0.2",
     "ape-releasing": "^5.0.7",
